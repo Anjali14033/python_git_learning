@@ -19,7 +19,7 @@ import requests
 GITHUB_API_URL = "https://api.github.com/search/repositories"
 
 
-def create_query(languages, min_stars=50000):
+def create_query(language, min_stars=50000):
     """
     Create the query string for the GitHub search API, 
     based on the minimum amount of stars for a project, and 
